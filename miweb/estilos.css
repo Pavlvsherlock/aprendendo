@@ -13,6 +13,21 @@ h1{
     padding: 3em;
 
 }
+
+p{
+    text-indent: 2em;
+}
+h2{
+    text-indent: 4em;
+}
+.yupi{
+    margin-left: 40%;
+}
 .captura{
-    size: 50%;
+    width: 50%;
+    height: 50%;
+    margin-left: 5em;
+}
+.final{
+    margin-left: 90%;
 }

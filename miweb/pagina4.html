@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Pablo">
+    <title>Página 4</title>
+    <link rel="stylesheet" href="estilos4.css">
+</head>
+<body>
+    <header>
+      <h1>Página 4</h1>
+    </header>
+    <nav>
+      <ul class="tabla">
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="pagina2.html">Página 2</a></li>
+         <li><a href="pagina3.html">Página 3</a></li>
+         <li><a href="proyecto.html">Proyecto</a></li>
+       </ul>
+    </nav>
+    <section>
+        <p>Primer párrafo de section.</p>
+        <img src="https://blob.sololearn.com/courses/shore.jpg" width="300px" height="250px"
+        alt="Atardecer 
+        en el lago">
+        <!--Vamos a ensayar con formularios-->
+        <form>
+          <label for="tipo1">Email: </label>
+          <!--solo los elementos de formulario con el atributo name pasarán
+          sus datos a la base de datos-->
+          <!-- El atributo value define los datos que se enviarán cuando se
+           seleccione la entrada.-->
+          <input type="text" id="tipo1" name="email" value="ejemplo@correo.es"> <button>enviar</button> <br>
+          <label for="box1">seleciona box</label>
+          <input type="checkbox" id="box1" name="elige" value="cash"> <br>
+          <label for="radio1">seleciona radio</label>
+          <input type="radio" id="radio1" name="pagar" value="pagado"> <br>
+          <label for="colorines">Elige color</label>
+          <select id="colorines" name="color" value="colorete">
+            <option value="r">rojo</option><option value="b">azul</option><option value="v">verde</option>
+          </select>
+          <br>
+          <input type="submit">
+        </form>
+       
+    </section>
+</body>
