@@ -28,6 +28,18 @@ h2{
     height: 50%;
     margin-left: 5em;
 }
-.final{
-    
+.tableta{
+    border: solid red;
+    margin-left: 11%;
+}
+.tableta td{
+    border:solid fuchsia;
+}
+.tableta th{
+    border: solid fuchsia;
+}
+.botoncito{
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(206, 106, 106, 0.507);
 }

@@ -1,15 +1,76 @@
 body{
-    background-color: forestgreen;
+    background-color:rgb(94, 87, 92);
+    position: static;
+    
+}
+main{
+    display: inline-block;
+    width: 100%;
+   position: relative;
+   left: 20%;
+   right: 20%;
+    margin-bottom: 1cm;
+    padding-left: 3em;
+}
+header{
+   
+    text-align: center;   
 }
 h1{
-    text-align: center;
-    color: blue;
-    margin-top: 30px;
+    
+    border: solid 3px;
+    color: red;
 }
-.tabla{
+.navega{
     margin-top: 2em;
     margin-left: 3em;
+    
+}
+li.navega{
+    display: inline;
+    margin-left: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: large;
+    background-color: aquamarine;
 }
 p{
     text-indent: 1em;
+}
+.lateral{
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 20%;
+  height:100%;
+  padding-top: 3em;
+  background-color: rgb(126, 62, 117);
+}
+.derecho{
+  display: inline-block;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height:100%;
+  width: 20%;
+  padding-top: 3em;
+  background-color: rgb(133, 49, 136);
+}
+.asiduo{
+    margin-top: 2em;
+    padding-top: 1em;
+}
+.caracol{
+    width: 500px;
+}
+footer{
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    bottom: 0cm;
+    padding-right: 1em;
+    text-align: right;
+    margin-top: 2em;;
+    background-color: rgb(177, 134, 70);
 }
