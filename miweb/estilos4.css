@@ -1,11 +1,12 @@
 body{
     background-color:rgb(94, 87, 92);
-    position: static;
+    position: absolute;
     
 }
 main{
     display: inline-block;
-    width: 100%;
+    width: 55%;
+    height: 100%;
    position: relative;
    left: 20%;
    right: 20%;
@@ -65,11 +66,14 @@ p{
     width: 500px;
 }
 footer{
-    position: fixed;
+    position: relative;
+    display: inline-block;
     left: 20%;
     right: 20%;
     bottom: 0cm;
     padding-right: 1em;
+    width: 59.5%;
+    height: 2em;
     text-align: right;
     margin-top: 2em;;
     background-color: rgb(177, 134, 70);
