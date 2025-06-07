@@ -3,7 +3,10 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    position:absolute;
 }
+
+
 h1{
     text-align: center;
     color: #910813;
@@ -12,17 +15,24 @@ h1{
 .tabla{
     margin: 3em;
     border: solid white;
+    border-collapse: collapse;
 
 }
-.tabla td{
+.tabla td, th{
     border: solid white;
+    padding:1px 14px;
 }
 .tabla th{
-    border: solid white;
+    color:darkblue;
 }
 
 p{
+    width:100%;
     text-indent: 2em;
+    text-align:justify;
+    margin-right: 5%;
+    margin-left:1em;
+
 }
 h2{
     text-indent: 4em;
@@ -49,4 +59,15 @@ h2{
     border: none;
     border-radius: 15px;
     background-color: rgba(206, 106, 106, 0.507);
+}
+footer {
+    
+    background-color: #46a01a;
+    width: 100%;
+    color: snow;
+    margin-top:15em;
+}
+.piefinal {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
 }

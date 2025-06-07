@@ -1,7 +1,8 @@
 body{
-    background-color:rgb(94, 87, 92);
+    background-color:slategray;
     position: absolute;
-    
+    font-size:19px;
+    font-family:'Comic Sans MS';
 }
 main{
     display: inline-block;
@@ -20,7 +21,12 @@ header{
 h1{
     
     border: solid 2px;
-    color: red;
+    color: darkorange;
+    text-shadow: 1px 1px;
+}
+h2{
+    text-align:center;
+    font-size: larger;
 }
 .navega{
     margin-top: 2em;
@@ -37,6 +43,7 @@ li.navega{
 }
 p{
     text-indent: 1em;
+    text-align:justify;
 }
 .lateral{
   display: inline-block;
@@ -46,7 +53,7 @@ p{
   width: 20%;
   height:100%;
   padding-top: 3em;
-  background-color: rgb(126, 62, 117);
+  background-color: lightslategray;
 }
 .derecho{
   display: inline-block;
@@ -56,7 +63,7 @@ p{
   height:100%;
   width: 20%;
   padding-top: 3em;
-  background-color: rgb(133, 49, 136);
+  background-color:lightslategray;
 }
 .asiduo{
     margin-top: 2em;
@@ -65,16 +72,27 @@ p{
 .caracol{
     width: 500px;
 }
+.visu{
+    margin-bottom: 1em;
+}
 footer{
-    position: relative;
+    
     display: inline-block;
     left: 20%;
     right: 20%;
     bottom: 0cm;
-    padding-right: 1em;
-    width: 59.5%;
+   position:fixed;
+    width:60%;
     height: 2em;
-    text-align: right;
-    margin-top: 2em;;
+    margin-right:1.5em;
+    padding-bottom:1em;
     background-color: rgb(177, 134, 70);
 }
+.piesito{
+    margin-right:2em;
+    text-align:right;
+    font-size:16px;
+    color:lightgoldenrodyellow;
+    font-weight:100;
+}
+
