@@ -1,3 +1,4 @@
+//Progarama que pasa a mayusculas texto escrito en minusculas.
 #include <stdio.h>
 #include <string.h>
 
