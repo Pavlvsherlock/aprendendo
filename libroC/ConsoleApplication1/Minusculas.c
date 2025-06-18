@@ -1,3 +1,4 @@
+//Programa para pasar textos en mayusculas a minusculas
 #include <stdio.h>
 #include <string.h>
 
