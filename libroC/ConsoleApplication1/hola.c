@@ -1,25 +1,47 @@
-// ConsoleApplication1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
 
 #include <stdio.h>
+#include <string.h>
+
+typedef struct 
+{
+    int edad;
+    float altura;
+    char nombre[20];
+}Datos;
+
+typedef struct 
+{
+    char titulo[40];
+    char autor[40];
+    int paginas;
+    float precio;   
+}Libros;
+
+
+
+
 
 int main()
 {
-    printf("Hola mundo");
-    int edad;
-    printf("\nCantos anos tes?: ");
-    scanf("%d", &edad);
-    printf("\nhola pablo, creo que tes %d anos",edad);
+    Datos p1;
+    printf("Buenos dias, como te chamas? ");
+    scanf("%s", &p1.nombre);
+    printf("edad? ");
+    scanf("%d",&p1.edad);
+    printf("Canto mides? ");
+    scanf("%f", &p1.altura);
+    printf("Hola %s tes %d anos e mides %.2f",p1.nombre, p1.edad, p1.altura);
+
+    //instancia de Libros
+    Libros l1;
+    strcpy(l1.titulo, "El señor de los anillos");
+    strcpy(l1.autor, "J.R.R Tolkien");
+    l1.paginas=957;
+    l1.precio=52.99;
+
+    //imprimimos datos do libro
+    printf("\nfalamos do libro %s, escrito por %s. %s ten %d paginas e costa %.2f euros", l1.titulo, l1.autor, l1.titulo, l1.paginas, l1.precio);
     return 0;
 
 }
 
-// Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
-
-// Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
-//   2. Use la ventana de Team Explorer para conectar con el control de código fuente
-//   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
-//   4. Use la ventana Lista de errores para ver los errores
-//   5. Vaya a Proyecto > Agregar nuevo elemento para crear nuevos archivos de código, o a Proyecto > Agregar elemento existente para agregar archivos de código existentes al proyecto
-//   6. En el futuro, para volver a abrir este proyecto, vaya a Archivo > Abrir > Proyecto y seleccione el archivo .sln
