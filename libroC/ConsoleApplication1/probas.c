@@ -10,6 +10,7 @@ printf("O numero 1 vale: %d\n", num1);
 printf("o numero 2 vale: %d\n", num2);
     return 0;
 }
+//funcion para intercambiar dous numeros
 void cambia(int* n1, int* n2){
     int comodin= *n1;
     *n1= *n2;
